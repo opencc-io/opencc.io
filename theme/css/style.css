@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	background-color: #222;
+	color: #eee;
+	margin: 0px;
+	max-width: 100%;
+}
+
+.menu {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	background-color: #333;
+	box-shadow: 1px 1px 7px 1px #111
+}
+
+.menu .section a, .menu .section a:visited {
+	color: #bbb;
+}
+
+.menu .section {
+	display: inline-block;
+	padding: 12px;
+	background-color: #222;
+}
+
+.menu .logo img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.post {
+	background-color: #333;
+	padding: 24px;
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 1px 1px 7px 1px #111;
+}
+
+.post p {
+	margin-bottom: 0px;
+}
+
+.post .read-more {
+	display: none;
+}
+
+.post a {
+	color: #bbb;
+}
+
+.post .title a, .post .title a:visited {
+	color: #fff;
+}
+
+.post .title {
+	margin-top: 0px;
+}
+
+.paginate {
+	display: none;
+}

@@ -1,0 +1,76 @@
+$color-background: #222;
+$color-box: #333;
+$color-text: #eee;
+$color-link: #bbb;
+$color-title: #fff;
+$shadow: 1px 1px 7px 1px #111;
+
+$padding: 24px;
+$padding-small: 12px;
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	background-color: $color-background;
+	color: $color-text;
+	margin: 0px;
+	max-width: 100%;
+}
+
+.menu {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	background-color: $color-box;
+	box-shadow: $shadow;
+
+	& .logo img {
+		width: 100%;
+		vertical-align: middle;
+	}
+
+	& .section {
+		display: inline-block;
+		padding: $padding-small;
+		background-color: $color-background;
+	}
+	& .section a, & .section a:visited {
+		color: $color-link;
+	}
+}
+
+.post {
+	background-color: $color-box;
+	padding: $padding;
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: $shadow;
+
+	& .title {
+		margin-top: 0px;
+	}
+
+	& .title a, & .title a:visited {
+		color: $color-title;
+	}
+
+	& a {
+		color: $color-link;
+	}
+
+	& .read-more {
+		display: none;
+	}
+
+	p {
+		margin-bottom: 0px;
+	}
+}
+
+.paginate {
+	display: none;
+}
